@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>QR Code Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Bootstrap. @see version in pom.xml -->
+    <link href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+    <script src="/webjars/jquery/1.9.1/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="text-center">
+
+    <div id="main">
+        <h1>QR Code Generator</h1>
+        <img src="QRCode.png"/> <!-- Should use from model? -->
+        <button id="generateAnotherButton" type="button" class="btn btn-primary">Generate Another</button>
+    </div>
+
+</body>
+
+<script type="text/javascript">
+    $('document').ready(function(){
+
+        $('#generateAnotherButton').click(function(){
+		    window.location = "/";
+	    });
+
+    });
+</script>
+
+</html>

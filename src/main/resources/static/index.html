@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>QR Code Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Bootstrap. @see version in pom.xml -->
+    <link href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+
+    <script src="/webjars/jquery/1.9.1/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="text-center">
+
+    <div id="main">
+        <h1>QR Code Generator</h1>
+
+        <form action="/generate" method="POST">
+            <div class="input-group md-3 form-group">
+                <input id="qr-code-message" type="text" class="form-control" placeholder="QR Code Messsage" aria-label="qr-code-message" name="message">
+                <button id="generateButton" type="submit" class="btn btn-primary">Generate</button>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
