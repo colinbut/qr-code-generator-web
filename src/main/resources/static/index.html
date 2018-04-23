@@ -17,13 +17,18 @@
 
     <div id="main">
         <h1>QR Code Generator</h1>
-
-        <form action="/generate" method="POST">
-            <div class="input-group md-3 form-group">
-                <input id="qr-code-message" type="text" class="form-control" placeholder="QR Code Messsage" aria-label="qr-code-message" name="message">
-                <button id="generateButton" type="submit" class="btn btn-primary">Generate</button>
-            </div>
-        </form>
+        <div class="container">
+            <form action="/generate" method="POST">
+                <div class="form-group row">
+                    <div class="col-md-10">
+                        <input id="qr-code-message" type="text" class="form-control" placeholder="QR Code Messsage" aria-label="qr-code-message" name="message">
+                    </div>
+                    <div class="col-md-2 text-left">
+                        <button id="generateButton" type="submit" class="btn btn-primary">Generate</button>
+                    </div>
+                </div>
+            </form>
+        </div>
 
     </div>
 
