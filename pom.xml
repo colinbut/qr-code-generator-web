@@ -25,6 +25,7 @@
 		<zxing.version>3.3.0</zxing.version>
 		<bootstrap.version>3.3.7-1</bootstrap.version>
 		<jquery.version>1.9.1</jquery.version>
+        <webjars.locator.version>0.30</webjars.locator.version>
 	</properties>
 
 	<dependencies>
@@ -75,6 +76,12 @@
 			<groupId>org.webjars</groupId>
 			<artifactId>jquery</artifactId>
 			<version>${jquery.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>webjars-locator</artifactId>
+			<version>${webjars.locator.version}</version>
 		</dependency>
 
 	</dependencies>
