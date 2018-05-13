@@ -24,6 +24,7 @@
 		<java.version>1.8</java.version>
 		<zxing.version>3.3.0</zxing.version>
 		<bootstrap.version>3.3.7-1</bootstrap.version>
+		<jquery.version>1.9.1</jquery.version>
 	</properties>
 
 	<dependencies>
@@ -73,7 +74,7 @@
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>jquery</artifactId>
-			<version>1.9.1</version>
+			<version>${jquery.version}</version>
 		</dependency>
 
 	</dependencies>
