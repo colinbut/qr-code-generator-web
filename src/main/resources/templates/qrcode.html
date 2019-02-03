@@ -17,7 +17,8 @@
 
     <div id="main">
         <h1>QR Code Generator</h1>
-        <img src="QRCode.png"/> <!-- Should use from model? -->
+        <img th:attr="src=@{${qrimage}} , title=#{background}, alt=#{background}" style="width: 150px; height: 150px;" />
+        <!--<img src="QRCode.png"/> &lt;!&ndash; Should use from model? &ndash;&gt;-->
         <button id="generateAnotherButton" type="button" class="btn btn-primary">Generate Another</button>
     </div>
 

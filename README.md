@@ -4,12 +4,12 @@
 
 ### Technologies
 
-- HTML
-- CSS/ Bootstrap
-- JS/ JQuery
+- HTML, CSS, JS [JQuery]
+- Bootstrap
 - Java 8
 - Spring Boot
 - zxing library (for QR code generation)
+- WebJars
 
 
 ### Run Locally
